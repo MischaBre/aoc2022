@@ -33,6 +33,7 @@ def winning_score(a, b) -> int:
     else:
         return 0
 
+
 # part 2
 def reaction_scheme(a, r) -> int:
     if r == 1:
@@ -41,6 +42,7 @@ def reaction_scheme(a, r) -> int:
         return translation_dict[a]
     if r == 3:
         return winning_dict[translation_dict[a]]
+
 
 if __name__ == '__main__':
     print(day2())
