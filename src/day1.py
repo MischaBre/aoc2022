@@ -13,8 +13,10 @@ def day1() -> int:
         print(sorted(elves_cal, reverse=True))
         # part 1
         # return max(elves_cal)
+
         # part 2
         return sum(sorted(elves_cal, reverse=True)[0:3])
+
 
 if __name__ == '__main__':
     print(day1())
