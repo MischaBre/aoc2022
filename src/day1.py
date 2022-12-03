@@ -16,6 +16,5 @@ def day1() -> int:
         # part 2
         return sum(sorted(elves_cal, reverse=True)[0:3])
 
-
 if __name__ == '__main__':
     print(day1())
